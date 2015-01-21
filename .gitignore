@@ -1,3 +1,5 @@
 fixtures/
 *#
 .DS_Store
+*~
+*.pyc
