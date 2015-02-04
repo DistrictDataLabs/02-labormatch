@@ -16,7 +16,7 @@ CONSUMER_SECRET = 'b95o3WkJj7vbNWMj'
 USER_TOKEN = 'd77d38f5-6f3e-422a-9a6a-6fe985ae8c54'
 USER_SECRET = '01027166-7044-4c73-988a-61896e12dd82'
 
-RETURN_URL = 'http://ysun1.github.io' # Not required for developer authentication
+RETURN_URL = 'http://ysun1.github.io/labormatch/' # Not required for developer authentication
 
 # Instantiate the developer authentication class
 
