@@ -29,6 +29,9 @@ client = oauth.Client(consumer, access_token)
 #--------end of example---------#
 
 
-url = "https://api.linkedin.com/v1/job-search?job-title=Software+Engineer"
-resp,content = client.request(url, "GET", "")
+joburl = "https://api.linkedin.com/v1/job-search?job-title=Software+Engineer"
+resp,content = client.request(joburl, "GET", "")
+
+pplurl = "https://api.linkedin.com/v1/people-search?school-name=Shermer%20High%20School&current-school=false"
+resp,content = client.request(pplurl, "GET", "")
 
