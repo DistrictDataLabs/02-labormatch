@@ -22,7 +22,7 @@ class BLSrequest():
 
 def main():
 
-  exampleSeries='LAUCN040010000000005'
+  exampleSeries='LAUCN040010000000005' #'OEUM530000154100000000004'
   api=BLSrequest()
   api.get(exampleSeries)
   api.write('../fixtures/exampleData.json')
