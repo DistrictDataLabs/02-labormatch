@@ -25,9 +25,13 @@
     var h = 500;
     
     
-    var w2 = 200;
+    var w2 = 400;
     var h2 = 400;
     
+    var padding = 105;
+    var margin = {left:40,right:60,top:10,bottom:50}
+    
+    var names=['Manufacturing','Energy','Service','Government','Farming']
     var barColors=['#2C45F3','#3D415A','#3690C0','#C89169','#F322C']
     
     // define projection
@@ -63,6 +67,7 @@
     .on("mouseover", function(d){
         d3.select(this)
         .style('stroke','white')
+        
         })
     .on("mouseout", function(d){
         d3.select(this)
@@ -79,12 +84,7 @@
 			  		   .data(dataset)
 			  		   .transition()
 			  		   .duration(1000)
-			  		   .attr("y", function(d) {
-			   				return h2 - yScale(d);
-			   			})
-			   			.attr("height", function(d) {
-			   				return yScale(d);
-			   			})	
+			  		   .attr("width", function(d,i){return xScale(d)})
 			   			
             
             });
@@ -98,36 +98,47 @@
     var dataset = [ 5, 10, 24, 11, 21 ];
     			// create scales
                         
-			var xScale = d3.scale.ordinal()
-								 .domain(d3.range(dataset.length))
-								 .rangeRoundBands([0,w2],0.05);
-
-			var yScale = d3.scale.linear()
-					    .domain([0,d3.max(dataset)])
-		    			 .range([0,h2]);
+    // create scales
+    var yScale = d3.scale.ordinal()
+            .domain(d3.range(dataset.length))
+            .rangeRoundBands([margin.top,h2-margin.bottom],0.35);
+            
+    var xScale = d3.scale.linear()
+            .domain([0,d3.max(dataset)])
+            .range([0,w2 - 2*margin.right]);
     
                         //Define Y axis
-			var yAxis = d3.svg.axis()
-                                    .scale(yScale)
-                                    .orient("left")
-                                    .ticks(5);
+    var yAxis = d3.svg.axis()
+                .scale(yScale)
+                .orient("left")
+                .tickFormat(function(d,i){return names[i]})
+                .ticks(5);
     
-    
+    var xAxis = d3.svg.axis()
+        .scale(xScale)
+        .orient("bottom")
+        .ticks(5);    
     // append bars
+            svg2.append("g")
+                            .attr("class", "y axis")
+                            .attr("transform", "translate(" + padding + ",0)")
+                            .call(yAxis);
+            svg2.append("g")
+				.attr("class", "x axis")
+				.attr("transform", "translate(" +padding + "," + (h2 - margin.bottom)+ ")" )
+				.call(xAxis);
 			svg2.selectAll("rect")
 			   .data(dataset)
 			   .enter()
 			   .append("rect")
-			   .attr("x", function(d, i) {
-			   		return xScale(i);
+			   .attr("x", function(d) {
+			   	return	0 + padding ;
 			   })
-			   .attr("y", function(d) {
-			   		return h - yScale(d);
+			   .attr("y", function(d,i) {
+			   		return  yScale(i);
 			   })
-			   .attr("width", xScale.rangeBand())
-			   .attr("height", function(d) {
-			   		return yScale(d);
-			   })
+			   .attr("width", function(d,i){return xScale(d)})
+			   .attr("height", yScale.rangeBand())
 			   .attr("fill", function(d,i) {
 					return barColors[i];
 			   })
