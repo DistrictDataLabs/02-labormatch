@@ -53,12 +53,12 @@ def main():
         for industry in industry_codes:
             for occupation in occupation_codes:
                 for datatype in datatype_codes:
-                    series = prefix + seasonal + areatype + areacode +industry + occupation + datatype
+                    myseries = prefix + seasonal + areatype + areacode +industry + occupation + datatype
     
-    output_fname = './/fixtures//'+'BLS_'+series+'.json'
-    api=BLSrequest()
-    api.get(series)
-    api.write(../fixtures/output_fname)
+                    output_fname = './fixtures/'+'BLS_'+myseries+'.json'
+                    api=BLSrequest()
+                    api.get(myseries)
+                    api.write(../fixtures/output_fname)
     
   #exampleSeries='LAUCN040010000000005' #'OEUM530000154100000000004'
   #api=BLSrequest()
