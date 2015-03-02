@@ -1,0 +1,642 @@
+area_code	areatype_code	area_name
+0000000	N	National	
+0010180	M	Abilene, TX	
+0010380	M	Aguadilla-Isabela-San Sebastian, PR	
+0010420	M	Akron, OH	
+0010500	M	Albany, GA	
+0010580	M	Albany-Schenectady-Troy, NY	
+0010740	M	Albuquerque, NM	
+0010780	M	Alexandria, LA	
+0010900	M	Allentown-Bethlehem-Easton, PA-NJ	
+0011020	M	Altoona, PA	
+0011100	M	Amarillo, TX	
+0011180	M	Ames, IA	
+0011260	M	Anchorage, AK	
+0011300	M	Anderson, IN	
+0011340	M	Anderson, SC	
+0011460	M	Ann Arbor, MI	
+0011500	M	Anniston-Oxford, AL	
+0011540	M	Appleton, WI	
+0011700	M	Asheville, NC	
+0012020	M	Athens-Clarke County, GA	
+0012060	M	Atlanta-Sandy Springs-Marietta, GA	
+0012100	M	Atlantic City-Hammonton, NJ	
+0012220	M	Auburn-Opelika, AL	
+0012260	M	Augusta-Richmond County, GA-SC	
+0012420	M	Austin-Round Rock-San Marcos, TX	
+0012540	M	Bakersfield-Delano, CA	
+0012580	M	Baltimore-Towson, MD	
+0012940	M	Baton Rouge, LA	
+0012980	M	Battle Creek, MI	
+0013020	M	Bay City, MI	
+0013140	M	Beaumont-Port Arthur, TX	
+0013380	M	Bellingham, WA	
+0013460	M	Bend, OR	
+0013644	M	Bethesda-Rockville-Frederick, MD Metropolitan Division	
+0013740	M	Billings, MT	
+0013780	M	Binghamton, NY	
+0013820	M	Birmingham-Hoover, AL	
+0013900	M	Bismarck, ND	
+0013980	M	Blacksburg-Christiansburg-Radford, VA	
+0014020	M	Bloomington, IN	
+0014060	M	Bloomington-Normal, IL	
+0014260	M	Boise City-Nampa, ID	
+0014500	M	Boulder, CO	
+0014540	M	Bowling Green, KY	
+0014740	M	Bremerton-Silverdale, WA	
+0015180	M	Brownsville-Harlingen, TX	
+0015260	M	Brunswick, GA	
+0015380	M	Buffalo-Niagara Falls, NY	
+0015500	M	Burlington, NC	
+0015804	M	Camden, NJ Metropolitan Division	
+0015940	M	Canton-Massillon, OH	
+0015980	M	Cape Coral-Fort Myers, FL	
+0016020	M	Cape Girardeau-Jackson, MO-IL	
+0016180	M	Carson City, NV	
+0016220	M	Casper, WY	
+0016300	M	Cedar Rapids, IA	
+0016580	M	Champaign-Urbana, IL	
+0016620	M	Charleston, WV	
+0016700	M	Charleston-North Charleston-Summerville, SC	
+0016740	M	Charlotte-Gastonia-Rock Hill, NC-SC	
+0016820	M	Charlottesville, VA	
+0016860	M	Chattanooga, TN-GA	
+0016940	M	Cheyenne, WY	
+0016974	M	Chicago-Joliet-Naperville, IL Metropolitan Division	
+0016980	M	Chicago-Joliet-Naperville, IL-IN-WI	
+0017020	M	Chico, CA	
+0017140	M	Cincinnati-Middletown, OH-KY-IN	
+0017300	M	Clarksville, TN-KY	
+0017420	M	Cleveland, TN	
+0017460	M	Cleveland-Elyria-Mentor, OH	
+0017660	M	Coeur d'Alene, ID	
+0017780	M	College Station-Bryan, TX	
+0017820	M	Colorado Springs, CO	
+0017860	M	Columbia, MO	
+0017900	M	Columbia, SC	
+0017980	M	Columbus, GA-AL	
+0018020	M	Columbus, IN	
+0018140	M	Columbus, OH	
+0018580	M	Corpus Christi, TX	
+0018700	M	Corvallis, OR	
+0018880	M	Crestview-Fort Walton Beach-Destin, FL	
+0019060	M	Cumberland, MD-WV	
+0019100	M	Dallas-Fort Worth-Arlington, TX	
+0019124	M	Dallas-Plano-Irving, TX Metropolitan Division	
+0019140	M	Dalton, GA	
+0019180	M	Danville, IL	
+0019260	M	Danville, VA	
+0019340	M	Davenport-Moline-Rock Island, IA-IL	
+0019380	M	Dayton, OH	
+0019460	M	Decatur, AL	
+0019500	M	Decatur, IL	
+0019660	M	Deltona-Daytona Beach-Ormond Beach, FL	
+0019740	M	Denver-Aurora-Broomfield, CO	
+0019780	M	Des Moines-West Des Moines, IA	
+0019804	M	Detroit-Livonia-Dearborn, MI Metropolitan Division	
+0019820	M	Detroit-Warren-Livonia, MI	
+0020020	M	Dothan, AL	
+0020100	M	Dover, DE	
+0020220	M	Dubuque, IA	
+0020260	M	Duluth, MN-WI	
+0020500	M	Durham-Chapel Hill, NC	
+0020740	M	Eau Claire, WI	
+0020764	M	Edison-New Brunswick, NJ Metropolitan Division	
+0020940	M	El Centro, CA	
+0021060	M	Elizabethtown, KY	
+0021140	M	Elkhart-Goshen, IN	
+0021300	M	Elmira, NY	
+0021340	M	El Paso, TX	
+0021500	M	Erie, PA	
+0021660	M	Eugene-Springfield, OR	
+0021780	M	Evansville, IN-KY	
+0021820	M	Fairbanks, AK	
+0021940	M	Fajardo, PR	
+0022020	M	Fargo, ND-MN	
+0022140	M	Farmington, NM	
+0022180	M	Fayetteville, NC	
+0022220	M	Fayetteville-Springdale-Rogers, AR-MO	
+0022380	M	Flagstaff, AZ	
+0022420	M	Flint, MI	
+0022500	M	Florence, SC	
+0022520	M	Florence-Muscle Shoals, AL	
+0022540	M	Fond du Lac, WI	
+0022660	M	Fort Collins-Loveland, CO	
+0022744	M	Fort Lauderdale-Pompano Beach-Deerfield Beach, FL Metropolitan Division	
+0022900	M	Fort Smith, AR-OK	
+0023060	M	Fort Wayne, IN	
+0023104	M	Fort Worth-Arlington, TX Metropolitan Division	
+0023420	M	Fresno, CA	
+0023460	M	Gadsden, AL	
+0023540	M	Gainesville, FL	
+0023580	M	Gainesville, GA	
+0023844	M	Gary, IN Metropolitan Division	
+0024020	M	Glens Falls, NY	
+0024140	M	Goldsboro, NC	
+0024220	M	Grand Forks, ND-MN	
+0024300	M	Grand Junction, CO	
+0024340	M	Grand Rapids-Wyoming, MI	
+0024500	M	Great Falls, MT	
+0024540	M	Greeley, CO	
+0024580	M	Green Bay, WI	
+0024660	M	Greensboro-High Point, NC	
+0024780	M	Greenville, NC	
+0024860	M	Greenville-Mauldin-Easley, SC	
+0025020	M	Guayama, PR	
+0025060	M	Gulfport-Biloxi, MS	
+0025180	M	Hagerstown-Martinsburg, MD-WV	
+0025260	M	Hanford-Corcoran, CA	
+0025420	M	Harrisburg-Carlisle, PA	
+0025500	M	Harrisonburg, VA	
+0025620	M	Hattiesburg, MS	
+0025860	M	Hickory-Lenoir-Morganton, NC	
+0025980	M	Hinesville-Fort Stewart, GA	
+0026100	M	Holland-Grand Haven, MI	
+0026180	M	Honolulu, HI	
+0026300	M	Hot Springs, AR	
+0026380	M	Houma-Bayou Cane-Thibodaux, LA	
+0026420	M	Houston-Sugar Land-Baytown, TX	
+0026580	M	Huntington-Ashland, WV-KY-OH	
+0026620	M	Huntsville, AL	
+0026820	M	Idaho Falls, ID	
+0026900	M	Indianapolis-Carmel, IN	
+0026980	M	Iowa City, IA	
+0027060	M	Ithaca, NY	
+0027100	M	Jackson, MI	
+0027140	M	Jackson, MS	
+0027180	M	Jackson, TN	
+0027260	M	Jacksonville, FL	
+0027340	M	Jacksonville, NC	
+0027500	M	Janesville, WI	
+0027620	M	Jefferson City, MO	
+0027740	M	Johnson City, TN	
+0027780	M	Johnstown, PA	
+0027860	M	Jonesboro, AR	
+0027900	M	Joplin, MO	
+0028020	M	Kalamazoo-Portage, MI	
+0028100	M	Kankakee-Bradley, IL	
+0028140	M	Kansas City, MO-KS	
+0028420	M	Kennewick-Pasco-Richland, WA	
+0028660	M	Killeen-Temple-Fort Hood, TX	
+0028700	M	Kingsport-Bristol-Bristol, TN-VA	
+0028740	M	Kingston, NY	
+0028940	M	Knoxville, TN	
+0029020	M	Kokomo, IN	
+0029100	M	La Crosse, WI-MN	
+0029140	M	Lafayette, IN	
+0029180	M	Lafayette, LA	
+0029340	M	Lake Charles, LA	
+0029404	M	Lake County-Kenosha County, IL-WI Metropolitan Division	
+0029420	M	Lake Havasu City - Kingman, AZ	
+0029460	M	Lakeland-Winter Haven, FL	
+0029540	M	Lancaster, PA	
+0029620	M	Lansing-East Lansing, MI	
+0029700	M	Laredo, TX	
+0029740	M	Las Cruces, NM	
+0029820	M	Las Vegas-Paradise, NV	
+0029940	M	Lawrence, KS	
+0030020	M	Lawton, OK	
+0030140	M	Lebanon, PA	
+0030300	M	Lewiston, ID-WA	
+0030460	M	Lexington-Fayette, KY	
+0030620	M	Lima, OH	
+0030700	M	Lincoln, NE	
+0030780	M	Little Rock-North Little Rock-Conway, AR	
+0030860	M	Logan, UT-ID	
+0030980	M	Longview, TX	
+0031020	M	Longview, WA	
+0031084	M	Los Angeles-Long Beach-Glendale, CA  Metropolitan Division	
+0031100	M	Los Angeles-Long Beach-Santa Ana, CA	
+0031140	M	Louisville-Jefferson County, KY-IN	
+0031180	M	Lubbock, TX	
+0031340	M	Lynchburg, VA	
+0031420	M	Macon, GA	
+0031460	M	Madera-Chowchilla, CA	
+0031540	M	Madison, WI	
+0031740	M	Manhattan, KS	
+0031860	M	Mankato-North Mankato, MN	
+0031900	M	Mansfield, OH	
+0032420	M	Mayaguez, PR	
+0032580	M	McAllen-Edinburg-Mission, TX	
+0032780	M	Medford, OR	
+0032820	M	Memphis, TN-MS-AR	
+0032900	M	Merced, CA	
+0033100	M	Miami-Fort Lauderdale-Pompano Beach, FL	
+0033124	M	Miami-Miami Beach-Kendall, FL Metropolitan Division	
+0033140	M	Michigan City-La Porte, IN	
+0033260	M	Midland, TX	
+0033340	M	Milwaukee-Waukesha-West Allis, WI	
+0033460	M	Minneapolis-St. Paul-Bloomington, MN-WI	
+0033540	M	Missoula, MT	
+0033660	M	Mobile, AL	
+0033700	M	Modesto, CA	
+0033740	M	Monroe, LA	
+0033780	M	Monroe, MI	
+0033860	M	Montgomery, AL	
+0034060	M	Morgantown, WV	
+0034100	M	Morristown, TN	
+0034580	M	Mount Vernon-Anacortes, WA	
+0034620	M	Muncie, IN	
+0034740	M	Muskegon-Norton Shores, MI	
+0034820	M	Myrtle Beach-Conway-North Myrtle Beach, SC	
+0034900	M	Napa, CA	
+0034940	M	Naples-Marco Island, FL	
+0034980	M	Nashville-Davidson--Murfreesboro--Franklin, TN	
+0035004	M	Nassau-Suffolk, NY Metropolitan Division	
+0035084	M	Newark-Union, NJ-PA Metropolitan Division	
+0035380	M	New Orleans-Metairie-Kenner, LA	
+0035620	M	New York-Northern New Jersey-Long Island, NY-NJ-PA	
+0035644	M	New York-White Plains-Wayne, NY-NJ Metropolitan Division	
+0035660	M	Niles-Benton Harbor, MI	
+0035840	M	North Port-Bradenton-Sarasota, FL	
+0036084	M	Oakland-Fremont-Hayward, CA Metropolitan Division	
+0036100	M	Ocala, FL	
+0036140	M	Ocean City, NJ	
+0036220	M	Odessa, TX	
+0036260	M	Ogden-Clearfield, UT	
+0036420	M	Oklahoma City, OK	
+0036500	M	Olympia, WA	
+0036540	M	Omaha-Council Bluffs, NE-IA	
+0036740	M	Orlando-Kissimmee-Sanford, FL	
+0036780	M	Oshkosh-Neenah, WI	
+0036980	M	Owensboro, KY	
+0037100	M	Oxnard-Thousand Oaks-Ventura, CA	
+0037340	M	Palm Bay-Melbourne-Titusville, FL	
+0037380	M	Palm Coast, FL	
+0037460	M	Panama City-Lynn Haven-Panama City Beach, FL	
+0037620	M	Parkersburg-Marietta-Vienna, WV-OH	
+0037700	M	Pascagoula, MS	
+0037860	M	Pensacola-Ferry Pass-Brent, FL	
+0037900	M	Peoria, IL	
+0037964	M	Philadelphia, PA Metropolitan Division	
+0037980	M	Philadelphia-Camden-Wilmington, PA-NJ-DE-MD	
+0038060	M	Phoenix-Mesa-Glendale, AZ	
+0038220	M	Pine Bluff, AR	
+0038300	M	Pittsburgh, PA	
+0038540	M	Pocatello, ID	
+0038660	M	Ponce, PR	
+0038900	M	Portland-Vancouver-Hillsboro, OR-WA	
+0038940	M	Port St. Lucie, FL	
+0039100	M	Poughkeepsie-Newburgh-Middletown, NY	
+0039140	M	Prescott, AZ	
+0039340	M	Provo-Orem, UT	
+0039380	M	Pueblo, CO	
+0039460	M	Punta Gorda, FL	
+0039540	M	Racine, WI	
+0039580	M	Raleigh-Cary, NC	
+0039660	M	Rapid City, SD	
+0039740	M	Reading, PA	
+0039820	M	Redding, CA	
+0039900	M	Reno-Sparks, NV	
+0040060	M	Richmond, VA	
+0040140	M	Riverside-San Bernardino-Ontario, CA	
+0040220	M	Roanoke, VA	
+0040340	M	Rochester, MN	
+0040380	M	Rochester, NY	
+0040420	M	Rockford, IL	
+0040580	M	Rocky Mount, NC	
+0040660	M	Rome, GA	
+0040900	M	Sacramento--Arden-Arcade--Roseville, CA	
+0040980	M	Saginaw-Saginaw Township North, MI	
+0041060	M	St. Cloud, MN	
+0041100	M	St. George, UT	
+0041140	M	St. Joseph, MO-KS	
+0041180	M	St. Louis, MO-IL	
+0041420	M	Salem, OR	
+0041500	M	Salinas, CA	
+0041540	M	Salisbury, MD	
+0041620	M	Salt Lake City, UT	
+0041660	M	San Angelo, TX	
+0041700	M	San Antonio-New Braunfels, TX	
+0041740	M	San Diego-Carlsbad-San Marcos, CA	
+0041780	M	Sandusky, OH	
+0041860	M	San Francisco-Oakland-Fremont, CA	
+0041884	M	San Francisco-San Mateo-Redwood City, CA Metropolitan Division	
+0041900	M	San German-Cabo Rojo, PR	
+0041940	M	San Jose-Sunnyvale-Santa Clara, CA	
+0041980	M	San Juan-Caguas-Guaynabo, PR	
+0042020	M	San Luis Obispo-Paso Robles, CA	
+0042044	M	Santa Ana-Anaheim-Irvine, CA Metropolitan Division	
+0042060	M	Santa Barbara-Santa Maria-Goleta, CA	
+0042100	M	Santa Cruz-Watsonville, CA	
+0042140	M	Santa Fe, NM	
+0042220	M	Santa Rosa-Petaluma, CA	
+0042340	M	Savannah, GA	
+0042540	M	Scranton--Wilkes-Barre, PA	
+0042644	M	Seattle-Bellevue-Everett, WA Metropolitan Division	
+0042660	M	Seattle-Tacoma-Bellevue, WA	
+0042680	M	Sebastian-Vero Beach, FL	
+0043100	M	Sheboygan, WI	
+0043300	M	Sherman-Denison, TX	
+0043340	M	Shreveport-Bossier City, LA	
+0043580	M	Sioux City, IA-NE-SD	
+0043620	M	Sioux Falls, SD	
+0043780	M	South Bend-Mishawaka, IN-MI	
+0043900	M	Spartanburg, SC	
+0044060	M	Spokane, WA	
+0044100	M	Springfield, IL	
+0044180	M	Springfield, MO	
+0044220	M	Springfield, OH	
+0044300	M	State College, PA	
+0044600	M	Steubenville-Weirton, OH-WV	
+0044700	M	Stockton, CA	
+0044940	M	Sumter, SC	
+0045060	M	Syracuse, NY	
+0045104	M	Tacoma, WA Metropolitan Division	
+0045220	M	Tallahassee, FL	
+0045300	M	Tampa-St. Petersburg-Clearwater, FL	
+0045460	M	Terre Haute, IN	
+0045500	M	Texarkana-Texarkana, TX-AR	
+0045780	M	Toledo, OH	
+0045820	M	Topeka, KS	
+0045940	M	Trenton-Ewing, NJ	
+0046060	M	Tucson, AZ	
+0046140	M	Tulsa, OK	
+0046220	M	Tuscaloosa, AL	
+0046340	M	Tyler, TX	
+0046540	M	Utica-Rome, NY	
+0046660	M	Valdosta, GA	
+0046700	M	Vallejo-Fairfield, CA	
+0047020	M	Victoria, TX	
+0047220	M	Vineland-Millville-Bridgeton, NJ	
+0047260	M	Virginia Beach-Norfolk-Newport News, VA-NC	
+0047300	M	Visalia-Porterville, CA	
+0047380	M	Waco, TX	
+0047580	M	Warner Robins, GA	
+0047644	M	Warren-Troy-Farmington Hills, MI Metropolitan Division	
+0047894	M	Washington-Arlington-Alexandria, DC-VA-MD-WV Metropolitan Division	
+0047900	M	Washington-Arlington-Alexandria, DC-VA-MD-WV	
+0047940	M	Waterloo-Cedar Falls, IA	
+0048140	M	Wausau, WI	
+0048300	M	Wenatchee-East Wenatchee, WA	
+0048424	M	West Palm Beach-Boca Raton-Boynton Beach, FL Metropolitan Division	
+0048540	M	Wheeling, WV-OH	
+0048620	M	Wichita, KS	
+0048660	M	Wichita Falls, TX	
+0048700	M	Williamsport, PA	
+0048864	M	Wilmington, DE-MD-NJ Metropolitan Division	
+0048900	M	Wilmington, NC	
+0049020	M	Winchester, VA-WV	
+0049180	M	Winston-Salem, NC	
+0049420	M	Yakima, WA	
+0049500	M	Yauco, PR	
+0049620	M	York-Hanover, PA	
+0049660	M	Youngstown-Warren-Boardman, OH-PA	
+0049700	M	Yuba City, CA	
+0049740	M	Yuma, AZ	
+0070750	M	Bangor, ME	
+0070900	M	Barnstable Town, MA	
+0071650	M	Boston-Cambridge-Quincy, MA-NH	
+0071654	M	Boston-Cambridge-Quincy, MA NECTA Division	
+0071950	M	Bridgeport-Stamford-Norwalk, CT	
+0072104	M	Brockton-Bridgewater-Easton, MA NECTA Division	
+0072400	M	Burlington-South Burlington, VT	
+0072850	M	Danbury, CT	
+0073104	M	Framingham, MA NECTA Division	
+0073450	M	Hartford-West Hartford-East Hartford, CT	
+0073604	M	Haverhill-North Andover-Amesbury, MA-NH NECTA Division	
+0074204	M	Lawrence-Methuen-Salem, MA-NH NECTA Division	
+0074500	M	Leominster-Fitchburg-Gardner, MA	
+0074650	M	Lewiston-Auburn, ME	
+0074804	M	Lowell-Billerica-Chelmsford, MA-NH NECTA Division	
+0074950	M	Manchester, NH	
+0075404	M	Nashua, NH-MA NECTA Division	
+0075550	M	New Bedford, MA	
+0075700	M	New Haven, CT	
+0076450	M	Norwich-New London, CT-RI	
+0076524	M	Peabody, MA NECTA Division	
+0076600	M	Pittsfield, MA	
+0076750	M	Portland-South Portland-Biddeford, ME	
+0076900	M	Portsmouth, NH-ME	
+0077200	M	Providence-Fall River-Warwick, RI-MA	
+0077350	M	Rochester-Dover, NH-ME	
+0078100	M	Springfield, MA-CT	
+0078254	M	Taunton-Norton-Raynham, MA NECTA Division	
+0078700	M	Waterbury, CT	
+0079600	M	Worcester, MA-CT	
+0100000	S	Alabama	
+0100001	M	Northwest Alabama nonmetropolitan area	
+0100002	M	Northeast Alabama nonmetropolitan area	
+0100003	M	Southwest Alabama nonmetropolitan area	
+0100004	M	Southeast Alabama nonmetropolitan area	
+0200000	S	Alaska	
+0200001	M	Southeast Alaska nonmetropolitan area	
+0200002	M	Railbelt / Southwest Alaska nonmetropolitan area	
+0400000	S	Arizona	
+0400001	M	North Arizona nonmetropolitan area	
+0400002	M	Southeast Arizona nonmetropolitan area	
+0500000	S	Arkansas	
+0500001	M	Central Arkansas nonmetropolitan area	
+0500002	M	East Arkansas nonmetropolitan area	
+0500003	M	South Arkansas nonmetropolitan area	
+0500004	M	West Arkansas nonmetropolitan area	
+0600000	S	California	
+0600001	M	Mother Lode Region of California nonmetropolitan area	
+0600002	M	Eastern Sierra Region of California nonmetropolitan area	
+0600003	M	North Coast Region of California nonmetropolitan area	
+0600004	M	North Valley Region of California nonmetropolitan area	
+0600005	M	Northern Mountains Region of California nonmetropolitan area	
+0800000	S	Colorado	
+0800001	M	East and South Colorado nonmetropolitan area	
+0800002	M	West Colorado nonmetropolitan area	
+0800003	M	Northcentral Colorado nonmetropolitan area	
+0800004	M	Central Colorado nonmetropolitan area	
+0900000	S	Connecticut	
+0900001	M	Northwestern Connecticut nonmetropolitan area	
+0900002	M	Eastern Connecticut nonmetropolitan area	
+1000000	S	Delaware	
+1000001	M	Sussex County, Delaware nonmetropolitan area	
+1100000	S	District of Columbia	
+1200000	S	Florida	
+1200001	M	Northwest Florida nonmetropolitan area	
+1200002	M	Northeast Florida nonmetropolitan area	
+1200003	M	South Florida nonmetropolitan area	
+1300000	S	Georgia	
+1300001	M	North Georgia nonmetropolitan area	
+1300002	M	Middle Georgia nonmetropolitan area	
+1300003	M	East Georgia nonmetropolitan area	
+1300004	M	South Georgia nonmetropolitan area	
+1500000	S	Hawaii	
+1500001	M	Hawaii / Maui / Kauai nonmetropolitan area	
+1600000	S	Idaho	
+1600001	M	North Idaho nonmetropolitan area	
+1600002	M	Southwest Idaho nonmetropolitan area	
+1600003	M	Southcentral Idaho nonmetropolitan area	
+1600004	M	East Idaho nonmetropolitan area	
+1700000	S	Illinois	
+1700001	M	Northwest Illinois nonmetropolitan area	
+1700002	M	West Central Illinois nonmetropolitan area	
+1700003	M	East Central Illinois nonmetropolitan area	
+1700004	M	South Illinois nonmetropolitan area	
+1800000	S	Indiana	
+1800001	M	Northern Indiana nonmetropolitan area	
+1800002	M	Central Indiana nonmetropolitan area	
+1800003	M	Southern Indiana nonmetropolitan area	
+1900000	S	Iowa	
+1900001	M	Northeast Iowa nonmetropolitan area	
+1900002	M	Northwest Iowa nonmetropolitan area	
+1900003	M	Southwest Iowa nonmetropolitan area	
+1900004	M	Southeast Iowa nonmetropolitan area	
+2000000	S	Kansas	
+2000001	M	Kansas nonmetropolitan area	
+2100000	S	Kentucky	
+2100001	M	West Kentucky nonmetropolitan area	
+2100002	M	South Central Kentucky nonmetropolitan area	
+2100003	M	West Central Kentucky nonmetropolitan area	
+2100004	M	East Kentucky nonmetropolitan area	
+2200000	S	Louisiana	
+2200001	M	Hammond nonmetropolitan area	
+2200002	M	Natchitoches nonmetropolitan area	
+2200003	M	Winnsboro nonmetropolitan area	
+2200004	M	New Iberia nonmetropolitan area	
+2300000	S	Maine	
+2300001	M	Northeast Maine nonmetropolitan area	
+2300002	M	Southwest Maine nonmetropolitan area	
+2400000	S	Maryland	
+2400001	M	Upper Eastern Shore nonmetropolitan area	
+2400002	M	Garrett County, Maryland nonmetropolitan area	
+2400003	M	St. Mary's County, Maryland nonmetropolitan area	
+2500000	S	Massachusetts	
+2500001	M	Nantucket Island and Martha's Vineyard nonmetropolitan area	
+2500002	M	Southwest Massachusetts nonmetropolitan area	
+2500003	M	Northwest Massachusetts nonmetropolitan area	
+2500004	M	North Central Massachusetts nonmetropolitan area	
+2600000	S	Michigan	
+2600001	M	Upper Peninsula of Michigan nonmetropolitan area	
+2600002	M	Northeast Lower Peninsula of Michigan nonmetropolitan area	
+2600003	M	Northwest Lower Peninsula of Michigan nonmetropolitan area	
+2600004	M	Balance of Lower Peninsula of Michigan nonmetropolitan area	
+2700000	S	Minnesota	
+2700001	M	Northwest Minnesota nonmetropolitan area	
+2700002	M	Northeast Minnesota nonmetropolitan area	
+2700003	M	Southwest Minnesota nonmetropolitan area	
+2700004	M	Southeast Minnesota nonmetropolitan area	
+2800000	S	Mississippi	
+2800001	M	Northeast Mississippi nonmetropolitan area	
+2800002	M	Northwest Mississippi nonmetropolitan area	
+2800003	M	Southeast Mississippi nonmetropolitan area	
+2800004	M	Southwest Mississippi nonmetropolitan area	
+2900000	S	Missouri	
+2900001	M	Central Missouri nonmetropolitan area	
+2900002	M	North Missouri nonmetropolitan area	
+2900003	M	Southeast Missouri nonmetropolitan area	
+2900004	M	Southwest Missouri nonmetropolitan area	
+3000000	S	Montana	
+3000001	M	Eastern Montana nonmetropolitan area	
+3000002	M	Central Montana nonmetropolitan area	
+3000003	M	Southwestern Montana nonmetropolitan area	
+3000004	M	Western Montana nonmetropolitan area	
+3100000	S	Nebraska	
+3100001	M	Western Nebraska nonmetropolitan area	
+3100002	M	Central Nebraska nonmetropolitan area	
+3100003	M	Northeastern Nebraska nonmetropolitan area	
+3100004	M	Southeastern Nebraska nonmetropolitan area	
+3200000	S	Nevada	
+3200001	M	Western Central Nevada nonmetropolitan area	
+3200002	M	Other Nevada nonmetropolitan area	
+3300000	S	New Hampshire	
+3300001	M	Northern New Hampshire nonmetropolitan area	
+3300002	M	Other New Hampshire nonmetropolitan area	
+3300003	M	Western New Hampshire nonmetropolitan area	
+3300004	M	Southwestern New Hampshire nonmetropolitan area	
+3400000	S	New Jersey	
+3500000	S	New Mexico	
+3500001	M	North and West Central New Mexico nonmetropolitan area	
+3500002	M	Eastern New Mexico nonmetropolitan area	
+3500003	M	Southwestern New Mexico nonmetropolitan area	
+3500004	M	Los Alamos County, New Mexico nonmetropolitan area	
+3600000	S	New York	
+3600001	M	Capital/Northern New York nonmetropolitan area	
+3600002	M	East Central New York nonmetropolitan area	
+3600003	M	Central New York nonmetropolitan area	
+3600004	M	Southwest New York nonmetropolitan area	
+3700000	S	North Carolina	
+3700001	M	Northeastern North Carolina nonmetropolitan area	
+3700002	M	Other North Carolina nonmetropolitan area	
+3700003	M	Western Central North Carolina nonmetropolitan area	
+3700004	M	Western North Carolina nonmetropolitan area	
+3800000	S	North Dakota	
+3800001	M	Far Western North Dakota nonmetropolitan area	
+3800002	M	West Central North Dakota nonmetropolitan area	
+3800003	M	East Central North Dakota nonmetropolitan area	
+3800004	M	Far Eastern North Dakota nonmetropolitan area	
+3900000	S	Ohio	
+3900001	M	West Northwestern Ohio nonmetropolitan area	
+3900002	M	Other Ohio nonmetropolitan area	
+3900003	M	Eastern Ohio nonmetropolitan area	
+3900004	M	Southern Ohio nonmetropolitan area	
+4000000	S	Oklahoma	
+4000001	M	Northeastern Oklahoma nonmetropolitan area	
+4000002	M	Northwestern Oklahoma nonmetropolitan area	
+4000003	M	Southwestern Oklahoma nonmetropolitan area	
+4000004	M	Southeastern Oklahoma nonmetropolitan area	
+4100000	S	Oregon	
+4100001	M	Coastal Oregon nonmetropolitan area	
+4100002	M	Southern Oregon and Linn County nonmetropolitan area	
+4100003	M	North Central Oregon nonmetropolitan area	
+4100004	M	Eastern Oregon nonmetropolitan area	
+4200000	S	Pennsylvania	
+4200001	M	Far Western Pennsylvania nonmetropolitan area	
+4200002	M	West Central Pennsylvania nonmetropolitan area	
+4200003	M	Northeastern Pennsylvania nonmetropolitan area	
+4200004	M	East Central Pennsylvania nonmetropolitan area	
+4400000	S	Rhode Island	
+4400001	M	New Shoreham Town, Rhode Island nonmetropolitan area	
+4500000	S	South Carolina	
+4500001	M	Low Country South Carolina nonmetropolitan area	
+4500002	M	Upper Savannah South Carolina nonmetropolitan area	
+4500003	M	Pee Dee South Carolina nonmetropolitan area	
+4500004	M	Lower Savannah South Carolina nonmetropolitan area	
+4600000	S	South Dakota	
+4600001	M	Central South Dakota nonmetropolitan area	
+4600002	M	Eastern South Dakota nonmetropolitan area	
+4600003	M	Western South Dakota nonmetropolitan area	
+4700000	S	Tennessee	
+4700001	M	Western Tennessee nonmetropolitan area	
+4700002	M	South Central Tennessee nonmetropolitan area	
+4700003	M	North Central Tennessee nonmetropolitan area	
+4700004	M	Eastern Tennessee nonmetropolitan area	
+4800000	S	Texas	
+4800001	M	Northwestern Texas nonmetropolitan area	
+4800002	M	North Central Texas nonmetropolitan area	
+4800003	M	Eastern Texas nonmetropolitan area	
+4800004	M	Central Texas nonmetropolitan area	
+4800005	M	Southern Texas nonmetropolitan area	
+4800006	M	Gulf Coast Texas nonmetropolitan area	
+4900000	S	Utah	
+4900001	M	Northern Utah nonmetropolitan area	
+4900002	M	West Central Utah nonmetropolitan area	
+4900003	M	South Western Utah nonmetropolitan area	
+4900004	M	Eastern Utah nonmetropolitan area	
+5000000	S	Vermont	
+5000001	M	Southern Vermont nonmetropolitan area	
+5000002	M	Northern Vermont nonmetropolitan area	
+5100000	S	Virginia	
+5100001	M	Southwestern Virginia nonmetropolitan area	
+5100002	M	Southside Virginia nonmetropolitan area	
+5100003	M	Northeastern Virginia nonmetropolitan area	
+5100004	M	Northwestern Virginia nonmetropolitan area	
+5300000	S	Washington	
+5300001	M	Northwestern Washington nonmetropolitan area	
+5300002	M	Southwestern Washington nonmetropolitan area	
+5300003	M	Central Washington nonmetropolitan area	
+5300004	M	Eastern Washington nonmetropolitan area	
+5400000	S	West Virginia	
+5400001	M	Southern West Virginia nonmetropolitan area	
+5400002	M	North Central West Virginia nonmetropolitan area	
+5500000	S	Wisconsin	
+5500001	M	Eastern Wisconsin nonmetropolitan area	
+5500002	M	West Central Wisconsin nonmetropolitan area	
+5500003	M	South Central Wisconsin nonmetropolitan area	
+5500004	M	Southwestern Wisconsin nonmetropolitan area	
+5500005	M	Northern Wisconsin nonmetropolitan area	
+5600000	S	Wyoming	
+5600001	M	Northwestern Wyoming nonmetropolitan area	
+5600002	M	Southwestern Wyoming nonmetropolitan area	
+5600003	M	Northeastern Wyoming nonmetropolitan area	
+5600004	M	Southeastern Wyoming nonmetropolitan area	
+6600000	S	Guam	
+7200000	S	Puerto Rico	
+7200001	M	Puerto Rico nonmetropolitan area 1	
+7200002	M	Puerto Rico nonmetropolitan area 2	
+7800000	S	Virgin Islands	
