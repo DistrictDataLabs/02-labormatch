@@ -7,7 +7,10 @@ class BLSrequest():
         
     def get(self,input_str):
         p=requests.get(self.api_base + input_str)
-        self.response=p.json()['Results']['series'][0]['data']
+        if p.json()['Results']:
+            self.response=p.json()['Results']['series'][0]['data']
+        else:
+            self.response=p.json()['Results']
         
         
     def post(self, input_str):    
