@@ -1,0 +1,491 @@
+industry_code	industry_name	display_level	selectable	sort_sequence
+000000	Cross-industry, private, federal, state, and local	3	T	1	
+000001	Cross-industry, private ownership only	1	T	2	
+11--12	Sector 11 - Agriculture, Forestry, Fishing and Hunting	2	T	3	
+113000	Forestry and Logging	3	T	4	
+113300	Logging	4	T	5	
+115000	Support Activities for Agriculture and Forestry	3	T	6	
+115100	Support Activities for Crop Production	4	T	7	
+115200	Support Activities for Animal Production	4	T	8	
+21--22	Sector 21 - Mining	2	T	9	
+211000	Oil and Gas Extraction	3	T	10	
+211100	Oil and Gas Extraction	4	T	11	
+212000	Mining (except Oil and Gas)	3	T	12	
+212100	Coal Mining	4	T	13	
+212200	Metal Ore Mining	4	T	14	
+212300	Nonmetallic Mineral Mining and Quarrying	4	T	15	
+213000	Support Activities for Mining	3	T	16	
+213100	Support Activities for Mining	4	T	17	
+22--23	Sector 22 - Utilities	2	T	18	
+221000	Utilities	3	T	19	
+221100	Electric Power Generation, Transmission and Distribution	4	T	20	
+221200	Natural Gas Distribution	4	T	21	
+221300	Water, Sewage and Other Systems	4	T	22	
+23--24	Sector 23 - Construction	2	T	23	
+236000	Construction of Buildings	3	T	24	
+236100	Residential Building Construction	4	T	25	
+236200	Nonresidential Building Construction	4	T	26	
+237000	Heavy and Civil Engineering Construction	3	T	27	
+237100	Utility System Construction	4	T	28	
+237130	Power and Communication Line and Related Structures Construction	5	T	29	
+237200	Land Subdivision	4	T	30	
+237300	Highway, Street, and Bridge Construction	4	T	31	
+237900	Other Heavy and Civil Engineering Construction	4	T	32	
+238000	Specialty Trade Contractors	3	T	33	
+238100	Foundation, Structure, and Building Exterior Contractors	4	T	34	
+238110	Poured Concrete Foundation and Structure Contractors	5	T	35	
+238140	Masonry Contractors	5	T	36	
+238160	Roofing Contractors	5	T	37	
+238200	Building Equipment Contractors	4	T	38	
+238210	Electrical Contractors and Other Wiring Installation Contractors	5	T	39	
+238220	Plumbing, Heating, and Air-Conditioning Contractors	5	T	40	
+238290	Other Building Equipment Contractors	5	T	41	
+238300	Building Finishing Contractors	4	T	42	
+238310	Drywall and Insulation Contractors	5	T	43	
+238320	Painting and Wall Covering Contractors	5	T	44	
+238900	Other Specialty Trade Contractors	4	T	45	
+31--34	Sectors 31, 32, and 33 - Manufacturing	2	T	46	
+311000	Food Manufacturing	3	T	47	
+311100	Animal Food Manufacturing	4	T	48	
+311200	Grain and Oilseed Milling	4	T	49	
+311300	Sugar and Confectionery Product Manufacturing	4	T	50	
+311400	Fruit and Vegetable Preserving and Specialty Food Manufacturing	4	T	51	
+311500	Dairy Product Manufacturing	4	T	52	
+311600	Animal Slaughtering and Processing	4	T	53	
+311700	Seafood Product Preparation and Packaging	4	T	54	
+311800	Bakeries and Tortilla Manufacturing	4	T	55	
+311900	Other Food Manufacturing	4	T	56	
+312000	Beverage and Tobacco Product Manufacturing	3	T	57	
+312100	Beverage Manufacturing	4	T	58	
+312200	Tobacco Manufacturing	4	T	59	
+313000	Textile Mills	3	T	60	
+313100	Fiber, Yarn, and Thread Mills	4	T	61	
+313200	Fabric Mills	4	T	62	
+313300	Textile and Fabric Finishing and Fabric Coating Mills	4	T	63	
+314000	Textile Product Mills	3	T	64	
+314100	Textile Furnishings Mills	4	T	65	
+314900	Other Textile Product Mills	4	T	66	
+315000	Apparel Manufacturing	3	T	67	
+315100	Apparel Knitting Mills	4	T	68	
+315200	Cut and Sew Apparel Manufacturing	4	T	69	
+315900	Apparel Accessories and Other Apparel Manufacturing	4	T	70	
+316000	Leather and Allied Product Manufacturing	3	T	71	
+316100	Leather and Hide Tanning and Finishing	4	T	72	
+316200	Footwear Manufacturing	4	T	73	
+316900	Other Leather and Allied Product Manufacturing	4	T	74	
+321000	Wood Product Manufacturing	3	T	75	
+321100	Sawmills and Wood Preservation	4	T	76	
+321200	Veneer, Plywood, and Engineered Wood Product Manufacturing	4	T	77	
+321900	Other Wood Product Manufacturing	4	T	78	
+322000	Paper Manufacturing	3	T	79	
+322100	Pulp, Paper, and Paperboard Mills	4	T	80	
+322200	Converted Paper Product Manufacturing	4	T	81	
+323000	Printing and Related Support Activities	3	T	82	
+323100	Printing and Related Support Activities	4	T	83	
+324000	Petroleum and Coal Products Manufacturing	3	T	84	
+324100	Petroleum and Coal Products Manufacturing	4	T	85	
+325000	Chemical Manufacturing	3	T	86	
+325100	Basic Chemical Manufacturing	4	T	87	
+325200	Resin, Synthetic Rubber, and Artificial Synthetic Fibers and Filaments Manufacturing	4	T	88	
+325300	Pesticide, Fertilizer, and Other Agricultural Chemical Manufacturing	4	T	89	
+325400	Pharmaceutical and Medicine Manufacturing	4	T	90	
+325500	Paint, Coating, and Adhesive Manufacturing	4	T	91	
+325600	Soap, Cleaning Compound, and Toilet Preparation Manufacturing	4	T	92	
+325900	Other Chemical Product and Preparation Manufacturing	4	T	93	
+326000	Plastics and Rubber Products Manufacturing	3	T	94	
+326100	Plastics Product Manufacturing	4	T	95	
+326200	Rubber Product Manufacturing	4	T	96	
+327000	Nonmetallic Mineral Product Manufacturing	3	T	97	
+327100	Clay Product and Refractory Manufacturing	4	T	98	
+327200	Glass and Glass Product Manufacturing	4	T	99	
+327300	Cement and Concrete Product Manufacturing	4	T	100	
+327400	Lime and Gypsum Product Manufacturing	4	T	101	
+327900	Other Nonmetallic Mineral Product Manufacturing	4	T	102	
+331000	Primary Metal Manufacturing	3	T	103	
+331100	Iron and Steel Mills and Ferroalloy Manufacturing	4	T	104	
+331200	Steel Product Manufacturing from Purchased Steel	4	T	105	
+331300	Alumina and Aluminum Production and Processing	4	T	106	
+331400	Nonferrous Metal (except Aluminum) Production and Processing	4	T	107	
+331500	Foundries	4	T	108	
+332000	Fabricated Metal Product Manufacturing	3	T	109	
+332100	Forging and Stamping	4	T	110	
+332200	Cutlery and Handtool Manufacturing	4	T	111	
+332300	Architectural and Structural Metals Manufacturing	4	T	112	
+332400	Boiler, Tank, and Shipping Container Manufacturing	4	T	113	
+332500	Hardware Manufacturing	4	T	114	
+332600	Spring and Wire Product Manufacturing	4	T	115	
+332700	Machine Shops; Turned Product; and Screw, Nut, and Bolt Manufacturing	4	T	116	
+332710	Machine Shops	5	T	117	
+332720	Turned Product and Screw, Nut, and Bolt Manufacturing	5	T	118	
+332800	Coating, Engraving, Heat Treating, and Allied Activities	4	T	119	
+332900	Other Fabricated Metal Product Manufacturing	4	T	120	
+333000	Machinery Manufacturing	3	T	121	
+333100	Agriculture, Construction, and Mining Machinery Manufacturing	4	T	122	
+333200	Industrial Machinery Manufacturing	4	T	123	
+333300	Commercial and Service Industry Machinery Manufacturing	4	T	124	
+333400	Ventilation, Heating, Air-Conditioning, and Commercial Refrigeration Equipment Manufacturing	4	T	125	
+333500	Metalworking Machinery Manufacturing	4	T	126	
+333600	Engine, Turbine, and Power Transmission Equipment Manufacturing	4	T	127	
+333900	Other General Purpose Machinery Manufacturing	4	T	128	
+334000	Computer and Electronic Product Manufacturing	3	T	129	
+334100	Computer and Peripheral Equipment Manufacturing	4	T	130	
+334200	Communications Equipment Manufacturing	4	T	131	
+334300	Audio and Video Equipment Manufacturing	4	T	132	
+334400	Semiconductor and Other Electronic Component Manufacturing	4	T	133	
+334500	Navigational, Measuring, Electromedical, and Control Instruments Manufacturing	4	T	134	
+334600	Manufacturing and Reproducing Magnetic and Optical Media	4	T	135	
+335000	Electrical Equipment, Appliance, and Component Manufacturing	3	T	136	
+335100	Electric Lighting Equipment Manufacturing	4	T	137	
+335200	Household Appliance Manufacturing	4	T	138	
+335300	Electrical Equipment Manufacturing	4	T	139	
+335900	Other Electrical Equipment and Component Manufacturing	4	T	140	
+336000	Transportation Equipment Manufacturing	3	T	141	
+336100	Motor Vehicle Manufacturing	4	T	142	
+336200	Motor Vehicle Body and Trailer Manufacturing	4	T	143	
+336300	Motor Vehicle Parts Manufacturing	4	T	144	
+336400	Aerospace Product and Parts Manufacturing	4	T	145	
+336500	Railroad Rolling Stock Manufacturing	4	T	146	
+336600	Ship and Boat Building	4	T	147	
+336900	Other Transportation Equipment Manufacturing	4	T	148	
+337000	Furniture and Related Product Manufacturing	3	T	149	
+337100	Household and Institutional Furniture and Kitchen Cabinet Manufacturing	4	T	150	
+337110	Wood Kitchen Cabinet and Countertop Manufacturing	5	T	151	
+337120	Household and Institutional Furniture Manufacturing	5	T	152	
+337200	Office Furniture (including Fixtures) Manufacturing	4	T	153	
+337900	Other Furniture Related Product Manufacturing	4	T	154	
+339000	Miscellaneous Manufacturing	3	T	155	
+339100	Medical Equipment and Supplies Manufacturing	4	T	156	
+339900	Other Miscellaneous Manufacturing	4	T	157	
+339910	Jewelry and Silverware Manufacturing	5	T	158	
+42--43	Sector 42 - Wholesale Trade	2	T	159	
+423000	Merchant Wholesalers, Durable Goods	3	T	160	
+423100	Motor Vehicle and Motor Vehicle Parts and Supplies Merchant Wholesalers	4	T	161	
+423200	Furniture and Home Furnishing Merchant Wholesalers	4	T	162	
+423300	Lumber and Other Construction Materials Merchant Wholesalers	4	T	163	
+423400	Professional and Commercial Equipment and Supplies Merchant Wholesalers	4	T	164	
+423500	Metal and Mineral (except Petroleum) Merchant Wholesalers	4	T	165	
+423600	Household Appliances and Electrical and Electronic Goods Merchant Wholesalers	4	T	166	
+423700	Hardware, and Plumbing and Heating Equipment and Supplies Merchant Wholesalers	4	T	167	
+423800	Machinery, Equipment, and Supplies Merchant Wholesalers	4	T	168	
+423820	Farm and Garden Machinery and Equipment Merchant Wholesalers	5	T	169	
+423900	Miscellaneous Durable Goods Merchant Wholesalers	4	T	170	
+424000	Merchant Wholesalers, Nondurable Goods	3	T	171	
+424100	Paper and Paper Product Merchant Wholesalers	4	T	172	
+424200	Drugs and Druggists' Sundries Merchant Wholesalers	4	T	173	
+424300	Apparel, Piece Goods, and Notions Merchant Wholesalers	4	T	174	
+424400	Grocery and Related Product Merchant Wholesalers	4	T	175	
+424500	Farm Product Raw Material Merchant Wholesalers	4	T	176	
+424600	Chemical and Allied Products Merchant Wholesalers	4	T	177	
+424700	Petroleum and Petroleum Products Merchant Wholesalers	4	T	178	
+424800	Beer, Wine, and Distilled Alcoholic Beverage Merchant Wholesalers	4	T	179	
+424900	Miscellaneous Nondurable Goods Merchant Wholesalers	4	T	180	
+425000	Wholesale Electronic Markets and Agents and Brokers	3	T	181	
+425100	Wholesale Electronic Markets and Agents and Brokers	4	T	182	
+44--46	Sectors 44 and 45 - Retail Trade	2	T	183	
+441000	Motor Vehicle and Parts Dealers	3	T	184	
+441100	Automobile Dealers	4	T	185	
+441200	Other Motor Vehicle Dealers	4	T	186	
+441300	Automotive Parts, Accessories, and Tire Stores	4	T	187	
+442000	Furniture and Home Furnishings Stores	3	T	188	
+442100	Furniture Stores	4	T	189	
+442200	Home Furnishings Stores	4	T	190	
+443000	Electronics and Appliance Stores	3	T	191	
+443100	Electronics and Appliance Stores	4	T	192	
+444000	Building Material and Garden Equipment and Supplies Dealers	3	T	193	
+444100	Building Material and Supplies Dealers	4	T	194	
+444200	Lawn and Garden Equipment and Supplies Stores	4	T	195	
+445000	Food and Beverage Stores	3	T	196	
+445100	Grocery Stores	4	T	197	
+445200	Specialty Food Stores	4	T	198	
+445300	Beer, Wine, and Liquor Stores	4	T	199	
+446000	Health and Personal Care Stores	3	T	200	
+446100	Health and Personal Care Stores	4	T	201	
+446110	Pharmacies and Drug Stores	5	T	202	
+447000	Gasoline Stations	3	T	203	
+447100	Gasoline Stations	4	T	204	
+448000	Clothing and Clothing Accessories Stores	3	T	205	
+448100	Clothing Stores	4	T	206	
+448200	Shoe Stores	4	T	207	
+448300	Jewelry, Luggage, and Leather Goods Stores	4	T	208	
+451000	Sporting Goods, Hobby, Musical Instrument, and Book Stores	3	T	209	
+451100	Sporting Goods, Hobby, and Musical Instrument Stores	4	T	210	
+451110	Sporting Goods Stores	5	T	211	
+451200	Book Stores and News Dealers	4	T	212	
+452000	General Merchandise Stores	3	T	213	
+452100	Department Stores	4	T	214	
+452900	Other General Merchandise Stores	4	T	215	
+453000	Miscellaneous Store Retailers	3	T	216	
+453100	Florists	4	T	217	
+453200	Office Supplies, Stationery, and Gift Stores	4	T	218	
+453300	Used Merchandise Stores	4	T	219	
+453900	Other Miscellaneous Store Retailers	4	T	220	
+454000	Nonstore Retailers	3	T	221	
+454100	Electronic Shopping and Mail-Order Houses	4	T	222	
+454200	Vending Machine Operators	4	T	223	
+454300	Direct Selling Establishments	4	T	224	
+48--50	Sectors 48 and 49 - Transportation and Warehousing	2	T	225	
+481000	Air Transportation	3	T	226	
+481100	Scheduled Air Transportation	4	T	227	
+481200	Nonscheduled Air Transportation	4	T	228	
+482000	Rail Transportation	3	T	229	
+482100	Rail Transportation	4	T	230	
+483000	Water Transportation	3	T	231	
+483100	Deep Sea, Coastal, and Great Lakes Water Transportation	4	T	232	
+483200	Inland Water Transportation	4	T	233	
+484000	Truck Transportation	3	T	234	
+484100	General Freight Trucking	4	T	235	
+484200	Specialized Freight Trucking	4	T	236	
+485000	Transit and Ground Passenger Transportation	3	T	237	
+485100	Urban Transit Systems	4	T	238	
+485200	Interurban and Rural Bus Transportation	4	T	239	
+485300	Taxi and Limousine Service	4	T	240	
+485400	School and Employee Bus Transportation	4	T	241	
+485500	Charter Bus Industry	4	T	242	
+485900	Other Transit and Ground Passenger Transportation	4	T	243	
+486000	Pipeline Transportation	3	T	244	
+486100	Pipeline Transportation of Crude Oil	4	T	245	
+486200	Pipeline Transportation of Natural Gas	4	T	246	
+486900	Other Pipeline Transportation	4	T	247	
+487000	Scenic and Sightseeing Transportation	3	T	248	
+487100	Scenic and Sightseeing Transportation, Land	4	T	249	
+487200	Scenic and Sightseeing Transportation, Water	4	T	250	
+487900	Scenic and Sightseeing Transportation, Other	4	T	251	
+488000	Support Activities for Transportation	3	T	252	
+488100	Support Activities for Air Transportation	4	T	253	
+488200	Support Activities for Rail Transportation	4	T	254	
+488300	Support Activities for Water Transportation	4	T	255	
+488400	Support Activities for Road Transportation	4	T	256	
+488500	Freight Transportation Arrangement	4	T	257	
+488900	Other Support Activities for Transportation	4	T	258	
+491000	Postal Service (federal government)	3	T	259	
+491100	Postal Service (federal government)	4	T	260	
+492000	Couriers and Messengers	3	T	261	
+492100	Couriers and Express Delivery Services	4	T	262	
+492200	Local Messengers and Local Delivery	4	T	263	
+493000	Warehousing and Storage	3	T	264	
+493100	Warehousing and Storage	4	T	265	
+51--52	Sector 51 - Information	2	T	266	
+511000	Publishing Industries (except Internet)	3	T	267	
+511100	Newspaper, Periodical, Book, and Directory Publishers	4	T	268	
+511110	Newspaper Publishers	5	T	269	
+511200	Software Publishers	4	T	270	
+512000	Motion Picture and Sound Recording Industries	3	T	271	
+512100	Motion Picture and Video Industries	4	T	272	
+512130	Motion Picture and Video Exhibition	5	T	273	
+512200	Sound Recording Industries	4	T	274	
+515000	Broadcasting (except Internet)	3	T	275	
+515100	Radio and Television Broadcasting	4	T	276	
+515110	Radio Broadcasting	5	T	277	
+515120	Television Broadcasting	5	T	278	
+515200	Cable and Other Subscription Programming	4	T	279	
+517000	Telecommunications	3	T	280	
+517100	Wired Telecommunications Carriers	4	T	281	
+517200	Wireless Telecommunications Carriers (except Satellite)	4	T	282	
+517400	Satellite Telecommunications	4	T	283	
+517900	Other Telecommunications	4	T	284	
+518000	Data Processing, Hosting, and Related Services	3	T	285	
+518200	Data Processing, Hosting, and Related Services	4	T	286	
+519000	Other Information Services	3	T	287	
+519100	Other Information Services	4	T	288	
+52--53	Sector 52 - Finance and Insurance	2	T	289	
+521000	Monetary Authorities-Central Bank	3	T	290	
+521100	Monetary Authorities-Central Bank	4	T	291	
+522000	Credit Intermediation and Related Activities	3	T	292	
+522100	Depository Credit Intermediation	4	T	293	
+522200	Nondepository Credit Intermediation	4	T	294	
+522290	Other Nondepository Credit Intermediation	5	T	295	
+522300	Activities Related to Credit Intermediation	4	T	296	
+523000	Securities, Commodity Contracts, and Other Financial Investments and Related Activities	3	T	297	
+523100	Securities and Commodity Contracts Intermediation and Brokerage	4	T	298	
+523200	Securities and Commodity Exchanges	4	T	299	
+523900	Other Financial Investment Activities	4	T	300	
+524000	Insurance Carriers and Related Activities	3	T	301	
+524100	Insurance Carriers	4	T	302	
+524120	Direct Insurance (except Life, Health, and Medical) Carriers	5	T	303	
+524200	Agencies, Brokerages, and Other Insurance Related Activities	4	T	304	
+524210	Insurance Agencies and Brokerages	5	T	305	
+524290	Other Insurance Related Activities	5	T	306	
+525000	Funds, Trusts, and Other Financial Vehicles	3	T	307	
+525100	Insurance and Employee Benefit Funds	4	T	308	
+525900	Other Investment Pools and Funds	4	T	309	
+53--54	Sector 53 - Real Estate and Rental and Leasing	2	T	310	
+531000	Real Estate	3	T	311	
+531100	Lessors of Real Estate	4	T	312	
+531200	Offices of Real Estate Agents and Brokers	4	T	313	
+531300	Activities Related to Real Estate	4	T	314	
+532000	Rental and Leasing Services	3	T	315	
+532100	Automotive Equipment Rental and Leasing	4	T	316	
+532200	Consumer Goods Rental	4	T	317	
+532300	General Rental Centers	4	T	318	
+532400	Commercial and Industrial Machinery and Equipment Rental and Leasing	4	T	319	
+533000	Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)	3	T	320	
+533100	Lessors of Nonfinancial Intangible Assets (except Copyrighted Works)	4	T	321	
+54--55	Sector 54 - Professional, Scientific, and Technical Services	2	T	322	
+541000	Professional, Scientific, and Technical Services	3	T	323	
+541100	Legal Services	4	T	324	
+541200	Accounting, Tax Preparation, Bookkeeping, and Payroll Services	4	T	325	
+541300	Architectural, Engineering, and Related Services	4	T	326	
+541330	Engineering Services	5	T	327	
+541380	Testing Laboratories	5	T	328	
+541400	Specialized Design Services	4	T	329	
+541500	Computer Systems Design and Related Services	4	T	330	
+541600	Management, Scientific, and Technical Consulting Services	4	T	331	
+541700	Scientific Research and Development Services	4	T	332	
+541710	Research and Development in the Physical, Engineering, and Life Sciences	5	T	333	
+541720	Research and Development in the Social Sciences and Humanities	5	T	334	
+541800	Advertising, Public Relations, and Related Services	4	T	335	
+541900	Other Professional, Scientific, and Technical Services	4	T	336	
+541920	Photographic Services	5	T	337	
+541940	Veterinary Services	5	T	338	
+55--56	Sector 55 - Management of Companies and Enterprises	2	T	339	
+551000	Management of Companies and Enterprises	3	T	340	
+551100	Management of Companies and Enterprises	4	T	341	
+56--57	Sector 56- Administrative and Support and Waste Management and Remediation Services	2	T	342	
+561000	Administrative and Support Services	3	T	343	
+561100	Office Administrative Services	4	T	344	
+561200	Facilities Support Services	4	T	345	
+561300	Employment Services	4	T	346	
+561400	Business Support Services	4	T	347	
+561420	Telephone Call Centers	5	T	348	
+561500	Travel Arrangement and Reservation Services	4	T	349	
+561510	Travel Agencies	5	T	350	
+561600	Investigation and Security Services	4	T	351	
+561610	Investigation, Guard, and Armored Car Services	5	T	352	
+561620	Security Systems Services	5	T	353	
+561700	Services to Buildings and Dwellings	4	T	354	
+561710	Exterminating and Pest Control Services	5	T	355	
+561730	Landscaping Services	5	T	356	
+561900	Other Support Services	4	T	357	
+562000	Waste Management and Remediation Services	3	T	358	
+562100	Waste Collection	4	T	359	
+562200	Waste Treatment and Disposal	4	T	360	
+562900	Remediation and Other Waste Management Services	4	T	361	
+61--62	Sector 61 - Educational Services	2	T	362	
+611000	Educational Services	3	T	363	
+611002	Educational Services - State government owned	3	T	364	
+611003	Educational Services - Local government owned	3	T	365	
+611005	Educational Services - Privately owned	3	T	366	
+611100	Elementary and Secondary Schools	4	T	367	
+611102	Elementary and Secondary Schools - State government owned	4	T	368	
+611103	Elementary and Secondary Schools - Local government owned	4	T	369	
+611105	Elementary and Secondary Schools - Privately owned	4	T	370	
+611200	Junior Colleges (including private, state, and local government schools)	4	T	371	
+611202	Junior colleges - State government owned	4	T	372	
+611203	Junior colleges - Local government owned	4	T	373	
+611205	Junior colleges - Privately owned	4	T	374	
+611300	Colleges, Universities, and Professional Schools	4	T	375	
+611302	Colleges, universities, and professional schools - State government owned	4	T	376	
+611303	Colleges, universities, and professional schools - Local government owned	4	T	377	
+611305	Colleges, universities, and professional schools - Privately owned	4	T	378	
+611400	Business Schools and Computer and Management Training	4	T	379	
+611405	Business schools and computer and management training - Privately owned	4	T	380	
+611500	Technical and Trade Schools	4	T	381	
+611502	Technical and trade schools - State government owned	4	T	382	
+611503	Technical and trade schools - Local government owned	4	T	383	
+611505	Technical and trade schools - Privately owned	4	T	384	
+611600	Other Schools and Instruction	4	T	385	
+611603	Other schools and instruction - Local government owned	4	T	386	
+611605	Other schools and instruction - Privately owned	4	T	387	
+611700	Educational Support Services	4	T	388	
+611703	Educational Support Services - Local government owned	4	T	389	
+611705	Educational Support Services - Privately owned	4	T	390	
+62--63	Sector 62 - Health Care and Social Assistance	2	T	391	
+621000	Ambulatory Health Care Services	3	T	392	
+621100	Offices of Physicians	4	T	393	
+621200	Offices of Dentists	4	T	394	
+621300	Offices of Other Health Practitioners	4	T	395	
+621310	Offices of Chiropractors	5	T	396	
+621320	Offices of Optometrists	5	T	397	
+621330	Offices of Mental Health Practitioners (except Physicians)	5	T	398	
+621340	Offices of Physical, Occupational and Speech Therapists, and Audiologists	5	T	399	
+621390	Offices of All Other Health Practitioners	5	T	400	
+621400	Outpatient Care Centers	4	T	401	
+621420	Outpatient Mental Health and Substance Abuse Centers	5	T	402	
+621500	Medical and Diagnostic Laboratories	4	T	403	
+621600	Home Health Care Services	4	T	404	
+621900	Other Ambulatory Health Care Services	4	T	405	
+621910	Ambulance Services	5	T	406	
+621990	All Other Ambulatory Health Care Services	5	T	407	
+622000	Hospitals (including private, state, and local government hospitals)	3	T	408	
+622002	Hospitals - State government owned	3	T	409	
+622003	Hospitals - Local government owned	3	T	410	
+622005	Hospitals - Privately owned	3	T	411	
+622100	General Medical and Surgical Hospitals	4	T	412	
+622102	General Medical and Surgical Hospitals - State government owned	4	T	413	
+622103	General Medical and Surgical Hospitals - Local government owned	4	T	414	
+622105	General Medical and Surgical Hospitals - Privately owned	4	T	415	
+622200	Psychiatric and Substance Abuse Hospitals	4	T	416	
+622202	Psychiatric and Substance Abuse Hospitals - State government owned	4	T	417	
+622205	Psychiatric and Substance Abuse Hospitals - Privately owned	4	T	418	
+622300	Specialty (except Psychiatric and Substance Abuse) Hospitals	4	T	419	
+622302	Specialty hospitals - State government owned	4	T	420	
+622305	Specialty hospitals - Privately owned	4	T	421	
+623000	Nursing and Residential Care Facilities	3	T	422	
+623100	Nursing Care Facilities (Skilled Nursing Facilities)	4	T	423	
+623200	Residential Intellectual and Developmental Disability, Mental Health, and Substance Abuse Facilities	4	T	424	
+623210	Residential Intellectual and Developmental Disability Facilities	5	T	425	
+623220	Residential Mental Health and Substance Abuse Facilities	5	T	426	
+623300	Continuing Care Retirement Communities and Assisted Living Facilities for the Elderly	4	T	427	
+623900	Other Residential Care Facilities	4	T	428	
+624000	Social Assistance	3	T	429	
+624100	Individual and Family Services	4	T	430	
+624120	Services for the Elderly and Persons with Disabilities	5	T	431	
+624200	Community Food and Housing, and Emergency and Other Relief Services	4	T	432	
+624300	Vocational Rehabilitation Services	4	T	433	
+624400	Child Day Care Services	4	T	434	
+71--72	Sector 71 - Arts, Entertainment, and Recreation	2	T	435	
+711000	Performing Arts, Spectator Sports, and Related Industries	3	T	436	
+711100	Performing Arts Companies	4	T	437	
+711110	Theater Companies and Dinner Theaters	5	T	438	
+711200	Spectator Sports	4	T	439	
+711300	Promoters of Performing Arts, Sports, and Similar Events	4	T	440	
+711400	Agents and Managers for Artists, Athletes, Entertainers, and Other Public Figures	4	T	441	
+711500	Independent Artists, Writers, and Performers	4	T	442	
+712000	Museums, Historical Sites, and Similar Institutions	3	T	443	
+712100	Museums, Historical Sites, and Similar Institutions	4	T	444	
+713000	Amusement, Gambling, and Recreation Industries	3	T	445	
+713100	Amusement Parks and Arcades	4	T	446	
+713200	Gambling Industries	4	T	447	
+713900	Other Amusement and Recreation Industries	4	T	448	
+713940	Fitness and Recreational Sports Centers	5	T	449	
+72--73	Sector 72 - Accommodation and Food Services	2	T	450	
+721000	Accommodation	3	T	451	
+721100	Traveler Accommodation	4	T	452	
+721120	Casino Hotels	5	T	453	
+721200	RV (Recreational Vehicle) Parks and Recreational Camps	4	T	454	
+721300	Rooming and Boarding Houses	4	T	455	
+722000	Food Services and Drinking Places	3	T	456	
+722300	Special Food Services	4	T	457	
+722400	Drinking Places (Alcoholic Beverages)	4	T	458	
+722500	Restaurants and Other Eating Places	4	T	459	
+722511	Full-Service Restaurants	5	T	460	
+81--82	Sector 81 - Other Services (except Federal, State, and Local Government)	2	T	461	
+811000	Repair and Maintenance	3	T	462	
+811100	Automotive Repair and Maintenance	4	T	463	
+811110	Automotive Mechanical and Electrical Repair and Maintenance	5	T	464	
+811120	Automotive Body, Paint, Interior, and Glass Repair	5	T	465	
+811190	Other Automotive Repair and Maintenance	5	T	466	
+811200	Electronic and Precision Equipment Repair and Maintenance	4	T	467	
+811300	Commercial and Industrial Machinery Equipment (except Auto and Electronic) Repair and Maintenance	4	T	468	
+811400	Personal and Household Goods Repair and Maintenance	4	T	469	
+812000	Personal and Laundry Services	3	T	470	
+812100	Personal Care Services	4	T	471	
+812200	Death Care Services	4	T	472	
+812300	Drycleaning and Laundry Services	4	T	473	
+812900	Other Personal Services	4	T	474	
+813000	Religious, Grantmaking, Civic, Professional, and Similar Organizations	3	T	475	
+813100	Religious Organizations	4	T	476	
+813200	Grantmaking and Giving Services	4	T	477	
+813300	Social Advocacy Organizations	4	T	478	
+813400	Civic and Social Organizations	4	T	479	
+813900	Business, Professional, Labor, Political, and Similar Organizations	4	T	480	
+813930	Labor Unions and Similar Labor Organizations	5	T	481	
+99-100	Sector 99 - Federal, State, and Local Government (OES Designation)	4	T	482	
+999000	Federal, State, and Local Government (OES Designation)	3	T	483	
+999001	Public sector -- Federal, state, and local government, including government owned schools and hospit	3	T	484	
+999100	Federal Executive Branch (OES Designation)	4	T	485	
+999101	Federal government, including USPS	4	T	486	
+999200	State Government, excluding schools and hospitals (OES Designation)	4	T	487	
+999201	State government, including schools and hospitals	4	T	488	
+999300	Local Government, excluding schools and hospitals (OES Designation)	4	T	489	
+999301	Local government, including schools and hospitals	4	T	490	
