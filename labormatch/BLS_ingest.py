@@ -49,11 +49,15 @@ def main():
     f_datatype='oe.datatype.txt'
     datatype_codes=getcode(f_datatype)
   
-    Series = prefix + seasonal + areatype + areacode +industry + occupation + datatype
+    for areacode in area_codes:
+        for industry in industry_codes:
+            for occupation in occupation_codes:
+                for datatype in datatype_codes:
+                    series = prefix + seasonal + areatype + areacode +industry + occupation + datatype
     
-    output_fname = 'BLS_'+Series+'.json'
+    output_fname = './/fixtures//'+'BLS_'+series+'.json'
     api=BLSrequest()
-    api.get(Series)
+    api.get(series)
     api.write(../fixtures/output_fname)
     
   #exampleSeries='LAUCN040010000000005' #'OEUM530000154100000000004'
