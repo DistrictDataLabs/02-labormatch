@@ -1,0 +1,16 @@
+industry_code	industry_name	display_level	selectable	sort_sequence000000	Total Private	0 	T	1    
+100000	Goods-producing	1 	T	2    
+100010	Natural resource & mining	2 	T	3    
+100020	Construction	2 	T	4    
+100030	Manufacturing	2 	T	5    
+200000	Service-providing	1 	T	6    
+200010	Wholesale trade	2 	T	7    
+200020	Retail trade	2 	T	8    
+200030	Transportation & warehousing	2 	T	9    
+200040	Utilities	2 	T	10   
+200050	Information	2 	T	11   
+200060	Financial activities	2 	T	12   
+200070	Professional & business services	2 	T	13   
+200080	Education & health services	2 	T	14   
+200090	Leisure & hospitality	2 	T	15   
+200100	Other sevices (except public administration)	2 	T	16   
