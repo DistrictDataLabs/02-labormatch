@@ -74,13 +74,15 @@ def main():
                         seriesid = prefix + seasonal + areacode + industry + unit + de + sizeclass + dc +rl + recordtype + ownership
                         fout.write(seriesid)
                         fout.write('\n')
-   fout.close()
+   
  
 
                         output_fname = 'output/'+'BLS_'+seriesid+'.json'
                         api=BLSrequest()
                         api.get(seriesid)
                         api.write(output_fname)
+                        
+    fout.close()
     
   #exampleSeries='LAUCN040010000000005' #'OEUM530000154100000000004'
   #api=BLSrequest()
