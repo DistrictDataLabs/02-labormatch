@@ -1,0 +1,3 @@
+ratelevel_code	ratelevel_name
+L	Level (U.S. Data In Thousands)
+R	Rate (Percent)                
