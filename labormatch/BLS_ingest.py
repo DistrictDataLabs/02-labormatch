@@ -26,42 +26,61 @@ class BLSrequest():
 def getcode(fname):
     f_oe = open(fname,'r')
     mylist = []
-
+    
+    num_line = 0
     for line in f_oe:
         code=line.split('\t')[0]
-        if code.isdigit():
+        if num_line>0:
             mylist.append(code)
+        num_line = num_line +1
+    return mylist
 
     return mylist
     
 
 def main():
-    prefix = 'OE'
-    seasonal = 'U'
-    areatype = 'N'
+    prefix = 'BD'#'OE'
+    seasonal = 'S'#'U'
+    unit = '0'
+    sizeclass = '01'
+    recordtype = 'Q'
+    ownership = '5'
+
+    f_area = 'bd.state.txt'
+    area_codes = getcode(f_area)
     
-    f_occupation = 'oe.occupation.txt'
-    occupation_codes=getcode(f_occupation)
 
-    f_area = 'oe.area.txt'
-    area_codes=getcode(f_area)
+    f_industry = 'bd.industry.txt'
+    industry_codes = getcode(f_industry)
 
-    f_industry='oe.industry.txt'
-    industry_codes=getcode(f_industry)
+    f_dataelement = 'bd.dataelement.txt'
+    dataelements = getcode(f_dataelement)
 
-    f_datatype='oe.datatype.txt'
-    datatype_codes=getcode(f_datatype)
+    f_dataclass = 'bd.dataclass.txt'
+    dataclasses = getcode(f_dataclass)
+
+    f_ratelevel = 'bd.ratelevel.txt'
+    ratelevels = getcode(f_ratelevel)
   
+    fout = open('bd_series_list.txt', 'w')
+
+    series_list = []
+    print 'hi'
     for areacode in area_codes:
         for industry in industry_codes:
-            for occupation in occupation_codes:
-                for datatype in datatype_codes:
-                    myseries = prefix + seasonal + areatype + areacode +industry + occupation + datatype
-    
-                    output_fname = './fixtures/'+'BLS_'+myseries+'.json'
-                    api=BLSrequest()
-                    api.get(myseries)
-                    api.write(../fixtures/output_fname)
+            for de in dataelements:
+                for dc in dataclasses:
+                    for rl in ratelevels:
+                        seriesid = prefix + seasonal + areacode + industry + unit + de + sizeclass + dc +rl + recordtype + ownership
+                        fout.write(seriesid)
+                        fout.write('\n')
+   fout.close()
+ 
+
+                        output_fname = 'output/'+'BLS_'+seriesid+'.json'
+                        api=BLSrequest()
+                        api.get(seriesid)
+                        api.write(output_fname)
     
   #exampleSeries='LAUCN040010000000005' #'OEUM530000154100000000004'
   #api=BLSrequest()
