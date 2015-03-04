@@ -1,6 +1,7 @@
 import requests
 import json
 import prettytable
+import sys
 
 
 
@@ -19,6 +20,13 @@ def getcode(fname):
     
 
 def main():
+    
+    if len(sys.argv)>1:
+        key = str(sys.argv[1])
+    else:
+        key='8c3ab1a673a340d39b89f1823419ee79'
+    print key
+    
     prefix = 'BD'
     seasonal = 'S'
     unit = '0'
@@ -50,7 +58,7 @@ def main():
                     "startyear": "2011",
                     "endyear": "2014"
                     })
-            key='8c3ab1a673a340d39b89f1823419ee79'
+            
             p = requests.post('http://api.bls.gov/publicAPI/v2/timeseries/data/', data = data, headers = headers, auth=(key,''))
             json_data = json.loads(p.text)
             if json_data['status'].find('REQUEST_NOT_PROCESSED')<0:
