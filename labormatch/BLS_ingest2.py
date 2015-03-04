@@ -36,44 +36,40 @@ def main():
     
     fout = open('bd_series_list.txt', 'w')
     series_list = []
-
     for areacode in area_codes:
         for industry in industry_codes:
             seriesid = prefix + seasonal + areacode + industry + unit + dataelement+ sizeclass + dataclass +ratelevel + recordtype + ownership
             series_list.append(seriesid)
             fout.write(seriesid)
             fout.write('\n')
-    
-    series_groups = [series_list[x:x+50] for x in xrange(0, len(series_list), 50)] #only take 50 per multi-series request
-    headers = {'Content-type': 'application/json'}
-    for group in series_groups:
-        
-        data = json.dumps({
-                "seriesid": group,
-                "startyear": "2011",
-                "endyear": "2014"
-                })
-        key='8c3ab1a673a340d39b89f1823419ee79' ###############update with your own api key##############
-        p = requests.post('http://api.bls.gov/publicAPI/v1/timeseries/data/', data = data, headers = headers, auth=(key,''))
-        json_data = json.loads(p.text)
-        if json_data['status'].find('REQUEST_NOT_PROCESSED')<0:
-            for series in json_data['Results']['series']:
-                x=prettytable.PrettyTable(["series id","year","period","value","footnotes"])
-                seriesId = series['seriesID']
-                for item in series['data']:
-                    year = item['year']
-                    period = item['period']
-                    value = item['value']
-                    footnotes=""
-                    for footnote in item['footnotes']:
-                        if footnote:
-                            footnotes = footnotes + footnote['text'] + ','
-                output = open('output/BLS_'+ seriesId + '.txt','w')
-                output.write (x.get_string())
-                output.close()
+    #series_groups = [series_list[x:x+50] for x in xrange(0, len(series_list), 50)] #only take 50 per multi-series request                                      
+            headers = {'Content-type': 'application/json'}
+    #for group in series_groups:                                                                                                                                
+            data = json.dumps({
+                    "seriesid": [seriesid],
+                    "startyear": "2011",
+                    "endyear": "2014"
+                    })
+            key='8c3ab1a673a340d39b89f1823419ee79'
+            p = requests.post('http://api.bls.gov/publicAPI/v2/timeseries/data/', data = data, headers = headers, auth=(key,''))
+            json_data = json.loads(p.text)
+            if json_data['status'].find('REQUEST_NOT_PROCESSED')<0:
+                for series in json_data['Results']['series']:
+                    for item in series['data']:
+                        row = {
+                            "series_id": series["seriesID"],
+                            "year": item['year'],
+                            "period": item['period'],
+                            "value": item['value'],
+                            "has_footnotes": False
+                            }
+                        if len(item["footnotes"]) > 2:
+                            row["has_footnotes"] = True
+                            output = open('output/BLS_'+ seriesid + '.txt','w')
+                            output.write (row)
 
-        else:
-            print json_data['message']
+            else:
+                print json_data['message']
                    
 
     
