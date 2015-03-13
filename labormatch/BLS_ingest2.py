@@ -46,9 +46,10 @@ def main():
             data = json.dumps({
                     "seriesid": [seriesid],
                     "startyear": "2011",
-                    "endyear": "2014"
+                    "endyear": "2014",
+                    "registrationKey": "8c3ab1a673a340d39b89f1823419ee79"
                     })
-            key='8c3ab1a673a340d39b89f1823419ee79'
+        
             p = requests.post('http://api.bls.gov/publicAPI/v2/timeseries/data/', data = data, headers = headers, auth=(key,''))
             json_data = json.loads(p.text)
             if json_data['status'].find('REQUEST_NOT_PROCESSED')<0:
