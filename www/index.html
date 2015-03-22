@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Simple US Map</title>
+    <title>Job Openings By State</title>
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
     <style type="text/css">
     			.axis path,
@@ -31,9 +31,9 @@
     var padding = 105;
     var margin = {left:40,right:60,top:10,bottom:50}
     
-    var names=['Manufacturing','Energy','Service','Government','Farming']
-    var barColors=['#2C45F3','#3D415A','#3690C0','#C89169','#F322C']
-    
+    var names=['Manufacturing','Construction','Transportation','Retail','Education','Government', 'Information','Financial','Leisure','Mining']
+    //var barColors=['#2C45F3','#3D415A','#3690C0','#C89169','#F322C','#2C45F3','#3D415A','#3690C0','#C89169','#F322C']
+    var barColors = ["#9098E7","#6570D7","#4552CA","#2635BE","#132098","#FFCC90","#FFB863","#FFA73E", "#FF9313", "#DC7800"]
     // define projection
     var proj = d3.geo.albersUsa()
                      .translate([w/2,h/2])
@@ -52,7 +52,7 @@
     .attr("height", h);
     
     //Load GeoJSON shape files
-    d3.json("http://localhost:8000/us-states.json", function(json) {
+    d3.json("us-states.json", function(json) {
     
     //Bind data and create one path per GeoJSON feature
     svg.selectAll("path")
@@ -76,7 +76,7 @@
     .on('click',function(){
             dataset=[]
             var maxVal=20
-            for (var i=0;i<5;i++){
+            for (var i=0;i<names.length;i++){
                     dataset.push(Math.floor(Math.random()*maxVal +5))
             }
             console.log(dataset)
@@ -95,8 +95,12 @@
     .attr("width", w2)
     .attr("height", h2)
     
-    var dataset = [ 5, 10, 24, 11, 21 ];
-    			// create scales
+    dataset=[]
+            var maxVal=20
+            for (var i=0;i<names.length;i++){
+                    dataset.push(Math.floor(Math.random()*maxVal +5))
+            }
+    			
                         
     // create scales
     var yScale = d3.scale.ordinal()
@@ -112,12 +116,12 @@
                 .scale(yScale)
                 .orient("left")
                 .tickFormat(function(d,i){return names[i]})
-                .ticks(5);
+                .ticks(names.length);
     
     var xAxis = d3.svg.axis()
         .scale(xScale)
         .orient("bottom")
-        .ticks(5);    
+        .ticks(names.length);    
     // append bars
             svg2.append("g")
                             .attr("class", "y axis")
@@ -127,6 +131,11 @@
 				.attr("class", "x axis")
 				.attr("transform", "translate(" +padding + "," + (h2 - margin.bottom)+ ")" )
 				.call(xAxis);
+            svg2.append("text")
+                .attr("class", "x label")
+                .attr("transform", "translate(" + w2/2.5   + "," + (h2 -padding/10 )+ ")" )
+                .text("Job Openings (Thousands)");       
+                
 			svg2.selectAll("rect")
 			   .data(dataset)
 			   .enter()
@@ -144,7 +153,7 @@
 			   })
 			   .on('mouseover',function(){
 			   		d3.select(this)
-			   		  .attr('fill','orange')
+			   		  .attr('fill','#FFE357')
 			   })
 			   .on('mouseout',function(d,i){
 			   		d3.select(this)
