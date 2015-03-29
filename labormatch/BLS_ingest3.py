@@ -124,21 +124,23 @@ def main():
      
     
     # now construct list of series for http request   
+    
+    
+    industries_of_interest = [ "30", "20", "43", "42", "65", "90", "50", "55", "70", "10" ]
+    series_list = []
+    for industry in industries_of_interest:
+        series_list.append( "SMU%s00000%s00000001" % ("19",industry) )
+    
+
+    
     headers={'Content-type': 'application/json'}
-    
-    
-    series1 = "SMU" + "19" + "00000" + "43000000" + "01"
-    series2 = "SMU" + "19" + "00000" + "20000000" + "01"
-    series3 = "SMU" + "19" + "00000" + "55000000" + "01"
-    
-    
-    series_list=[series1,series2,series3]
     data = json.dumps({
                         "seriesid": series_list,
                          "startyear": "2014",
                       "endyear": "2014",
                     "registrationKey":"52fef8e6fb614d32a24aa5ca9538e69a"
                       })
+   
     # fetch request and decode json
     result=requests.post('http://api.bls.gov/publicAPI/v2/timeseries/data/', data = data, headers = headers).text
     result_j=json.loads(result)
