@@ -123,43 +123,46 @@ def main():
         
      
     
-    # now construct list of series for http request   
-    
-    
-    industries_of_interest = [ "30", "20", "43", "42", "65", "90", "50", "55", "70", "10" ]
-    series_list = []
-    for industry in industries_of_interest:
-        series_list.append( "SMU%s00000%s00000001" % ("19",industry) )
     
 
+    industries_of_interest = [ "30", "20", "43", "42", "65", "90", "50", "55", "70", "10" ]
     
-    headers={'Content-type': 'application/json'}
-    data = json.dumps({
-                        "seriesid": series_list,
-                         "startyear": "2014",
-                      "endyear": "2014",
-                    "registrationKey":"52fef8e6fb614d32a24aa5ca9538e69a"
-                      })
-   
-    # fetch request and decode json
-    result=requests.post('http://api.bls.gov/publicAPI/v2/timeseries/data/', data = data, headers = headers).text
-    result_j=json.loads(result)
+    final_result = [] # this list will hold the data we accumulate and will be written to a file
+    for state_id in state_id_table.keys():
+        
+        # for a given state, construct list of series for http request   
+        series_list = []
+        for industry in industries_of_interest:
+            series_list.append( "SMU%s00000%s00000001" % (state_id,industry) )
+        
     
-    # for each series, extract year-long average value
-    IDs_and_vals = extract_data(result_j)
         
-    # decode state and industry numeric codes
-    result = []
-    for s_id in IDs_and_vals.keys():
-        (a,b) =  series_id_lookup(s_id,state_id_table,industry_id_table)
-        result.append((a,b,IDs_and_vals[s_id]))
+        headers={'Content-type': 'application/json'}
+        data = json.dumps({
+                            "seriesid": series_list,
+                             "startyear": "2014",
+                          "endyear": "2014",
+                        "registrationKey":"52fef8e6fb614d32a24aa5ca9538e69a"
+                          })
+       
+        # fetch request and decode json
+        result=requests.post('http://api.bls.gov/publicAPI/v2/timeseries/data/', data = data, headers = headers).text
+        result_j=json.loads(result)
         
+        # for each industry series, extract data and compute year-long average value
+        IDs_and_vals = extract_data(result_j)
+            
+        # decode state and industry numeric codes
+        for s_id in IDs_and_vals.keys():
+            (a,b) =  series_id_lookup(s_id,state_id_table,industry_id_table)
+            # append this data point to the list
+            final_result.append((a,b,IDs_and_vals[s_id]))
+            
     # write results in json triples of {StateName,IndustryName, Values}    
     with open('../fixtures/stateIndustryData.json','w') as writefile:
         arr=[]
-        for (a,b,c) in result:
+        for (a,b,c) in final_result:
             out = dict()
-            d = result[0]
             out["StateName"] = a
             out["IndustryName"] = b
             out["Value"] = c
