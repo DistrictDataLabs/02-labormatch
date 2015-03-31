@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Employment Numbers By State</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/d3/3.5.3/d3.min.js"></script>
+    <style type="text/css">
+    			.axis path,
+			.axis line {
+				fill: none;
+				stroke: black;
+				shape-rendering: crispEdges;
+			}
+			
+			.axis text {
+				font-family: sans-serif;
+				font-size: 14px;
+			}	
+    </style>
+</head>
+<body>
+    
+    <script type="text/javascript">
+    d3.json("stateIndustryData.json", function(file){
+        var indiana_data = []
+        for (var j=0; j < 500;j++){
+            
+            try{d = JSON.parse(file[j])
+            }catch(err) {console.log(err.message)}
+            
+            if (d.StateName=="Indiana") {
+                indiana_data.push(d)
+            }
+        }
+        console.log(indiana_data)
+    })
+    </script>
+</body>
+
+</html>
+
