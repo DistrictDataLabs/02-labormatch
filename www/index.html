@@ -53,6 +53,23 @@
     
     //Load GeoJSON shape files
     d3.json("us-states.json", function(json) {
+        
+            // load state employment data
+        d3.json("stateIndustryData.json", function(file){
+            var indiana_data = []
+            for (var j=0; j < 500;j++){
+                
+                try{d = JSON.parse(file[j])
+                }catch(err) {console.log(err.message)}
+                
+                if (d.StateName=="Indiana") {
+                    indiana_data.push(d)
+                }
+            }
+            console.log(indiana_data)
+        })
+        
+        
     
     //Bind data and create one path per GeoJSON feature
     svg.selectAll("path")
