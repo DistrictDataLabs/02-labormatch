@@ -56,18 +56,16 @@
         
             // load state employment data
         d3.json("stateIndustryData.json", function(file){
-            var indiana_data = []
-            for (var j=0; j < 500;j++){
+            var all_data = []
+            for (var j=0; j < file.length;j++){
                 
                 try{d = JSON.parse(file[j])
                 }catch(err) {console.log(err.message)}
                 
-                if (d.StateName=="Indiana") {
-                    indiana_data.push(d)
-                }
+                all_data.push(d)
             }
-            console.log(indiana_data)
-        })
+            
+        
         
         
     
@@ -80,28 +78,38 @@
     .style("fill",function(d){
         return color[Math.floor(Math.random()*4)]
         })
-    .style("stroke","none")
+    .style("stroke","white")
+    .style('stroke-width','1px')
     .on("mouseover", function(d){
-        d3.select(this)
-        .style('stroke','white')
-        
+        d3.select(this)      
+        .style('stroke-width','3px')
         })
     .on("mouseout", function(d){
         d3.select(this)
-        .style('stroke','none')
+        .style('stroke','white')
+        .style('stroke-width','1px')
         })
-    .on('click',function(){
-            dataset=[]
-            var maxVal=20
-            for (var i=0;i<names.length;i++){
-                    dataset.push(Math.floor(Math.random()*maxVal +5))
+    .on('click',function(d){
+       
+        
+        
+        
+            obj_set=[]
+            
+            for (var k=0;k<all_data.length;k++){
+                if (all_data[k].StateName == d.properties.name) {
+                    obj_set.push(all_data[k])
+                }
             }
+            
+            dataset= obj_set.map( function(obj){return obj.Value} )
+            
             console.log(dataset)
             svg2.selectAll('rect')
-			  		   .data(dataset)
-			  		   .transition()
-			  		   .duration(1000)
-			  		   .attr("width", function(d,i){return xScale(d)})
+                .data(dataset)
+                .transition()
+                .duration(1000)
+                .attr("width", function(d,i){return xScale(d)})
 			   			
             
             });
@@ -117,15 +125,18 @@
             for (var i=0;i<names.length;i++){
                     dataset.push(Math.floor(Math.random()*maxVal +5))
             }
-    			
-                        
+    obj_set=[] // extract all the numeric data values, to find max and min
+    for (var k=0;k<all_data.length;k++){
+                    obj_set.push(all_data[k])       
+            }
+    flattened_data = obj_set.map(function(ob){return ob.Value})                    
     // create scales
     var yScale = d3.scale.ordinal()
-            .domain(d3.range(dataset.length))
+            .domain(d3.range(names.length))
             .rangeRoundBands([margin.top,h2-margin.bottom],0.35);
             
     var xScale = d3.scale.linear()
-            .domain([0,d3.max(dataset)])
+            .domain([0,d3.max(flattened_data)])
             .range([0,w2 - 2*margin.right]);
     
                         //Define Y axis
@@ -179,7 +190,7 @@
 			   		  .attr('fill', barColors[i])
 			   })
                         
-                     
+    }) //json                 
     
     }); //json
     
