@@ -91,11 +91,8 @@
         })
     .on('click',function(d){
        
-        
-        
-        
+            document.getElementById("title").innerHTML= d.properties.name;    
             obj_set=[]
-            
             for (var k=0;k<all_data.length;k++){
                 if (all_data[k].StateName == d.properties.name) {
                     obj_set.push(all_data[k])
@@ -162,7 +159,11 @@
             svg2.append("text")
                 .attr("class", "x label")
                 .attr("transform", "translate(" + w2/2.5   + "," + (h2 -padding/10 )+ ")" )
-                .text("Job Openings (Thousands)");       
+                .text("Job Openings (Thousands)");
+                svg2.append("text")
+                .attr("id", "title")
+                .attr("transform", "translate(" + w2/2   + "," + (padding/7  )+ ")" )
+                .text("State");
                 
 			svg2.selectAll("rect")
 			   .data(dataset)
