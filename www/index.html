@@ -32,6 +32,7 @@
     var margin = {left:40,right:60,top:10,bottom:50}
     
     var names=['Manufacturing','Construction','Transportation','Retail','Education','Government', 'Information','Financial','Leisure','Mining']
+
     //var barColors=['#2C45F3','#3D415A','#3690C0','#C89169','#F322C','#2C45F3','#3D415A','#3690C0','#C89169','#F322C']
     var barColors = ["#9098E7","#6570D7","#4552CA","#2635BE","#132098","#FFCC90","#FFB863","#FFA73E", "#FF9313", "#DC7800"]
     // define projection
@@ -146,21 +147,24 @@
     var xAxis = d3.svg.axis()
         .scale(xScale)
         .orient("bottom")
-        .ticks(names.length);    
+        .ticks(4);
+
     // append bars
             svg2.append("g")
-                            .attr("class", "y axis")
-                            .attr("transform", "translate(" + padding + ",0)")
-                            .call(yAxis);
+                .attr("class", "y axis")
+                .attr("transform", "translate(" + padding + ",0)")
+                .call(yAxis);
+            
             svg2.append("g")
-				.attr("class", "x axis")
-				.attr("transform", "translate(" +padding + "," + (h2 - margin.bottom)+ ")" )
-				.call(xAxis);
+                .attr("class", "x axis")
+                .attr("transform", "translate(" +padding + "," + (h2 - margin.bottom)+ ")" )
+                .call(xAxis);
+            
             svg2.append("text")
                 .attr("class", "x label")
                 .attr("transform", "translate(" + w2/2.5   + "," + (h2 -padding/10 )+ ")" )
                 .text("Job Openings (Thousands)");
-                svg2.append("text")
+            svg2.append("text")
                 .attr("id", "title")
                 .attr("transform", "translate(" + w2/2   + "," + (padding/7  )+ ")" )
                 .text("State");
@@ -183,12 +187,18 @@
 			   .on('mouseover',function(){
 			   		d3.select(this)
 			   		  .attr('fill','#FFE357')
+
+
 			   })
+                           
 			   .on('mouseout',function(d,i){
 			   		d3.select(this)
 			   		  .transition()
 			   		  .duration(500)
 			   		  .attr('fill', barColors[i])
+                                        
+
+                                        
 			   })
                         
     }) //json                 
