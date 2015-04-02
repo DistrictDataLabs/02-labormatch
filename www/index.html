@@ -46,9 +46,7 @@
     
     var names=['Manufacturing','Construction','Transportation','Retail','Education','Government', 'Information','Financial','Leisure','Mining']
 
-    //var barColors=['#2C45F3','#3D415A','#3690C0','#C89169','#F322C','#2C45F3','#3D415A','#3690C0','#C89169','#F322C']
-    //var barColors = ["#9098E7","#6570D7","#4552CA","#2635BE","#132098","#FFCC90","#FFB863","#FFA73E", "#FF9313", "#DC7800"]
-    
+
     var barColors =[]
     var col = d3.scale.category10()
     for (i=0;i<10;i++){barColors.push(col(i))}
@@ -126,17 +124,30 @@
                    
                 }     
             } // not the brightest way to do this...
+            //console.log(dataset)
+           
+          
             
+           xScale.domain([0,d3.max(dataset)]);
             
+     
+            
+        
+            svg2.select('.x.axis')
+                .transition()
+                .duration(500)
+                .call(xAxis)
             
             svg2.selectAll('rect')
                 .data(dataset)
                 .transition()
                 .duration(1000)
-                .attr("width", function(d,i){return xScale(d)})
-			   			
-            
-            });
+                .attr("width", function(d){return xScale(d)
+                    })
+                
+
+                
+    });
     
     
      var svg2 = d3.select("body")
@@ -145,7 +156,7 @@
     .attr("height", h2)
     
     dataset=[]
-            var maxVal=20
+            var maxVal=25
             for (var i=0;i<names.length;i++){
                     dataset.push(Math.floor(Math.random()*maxVal +5))
             }
@@ -160,7 +171,7 @@
             .rangeRoundBands([margin.top,h2-margin.bottom],0.35);
             
     var xScale = d3.scale.linear()
-            .domain([0,d3.max(flattened_data)])
+            .domain([0,d3.max(dataset)])
             .range([0,w2 - 2*margin.right]);
     
                         //Define Y axis
@@ -174,6 +185,8 @@
         .scale(xScale)
         .orient("bottom")
         .ticks(4);
+        
+
 
     // append bars
             svg2.append("g")
