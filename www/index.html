@@ -15,10 +15,27 @@
 			.axis text {
 				font-family: sans-serif;
 				font-size: 14px;
-			}	
+			}
+                        .infobox p {
+                            text-align: center
+                        }
+                        .infobox {
+                            margin-left:auto;
+                            margin-right: auto;
+                            width:800px;
+                            background-color: #f1f1f1;
+                            padding: 5px;
+                            border-radius: 20px;
+                            box-shadow: 5px 5px 3px #888888;
+                        }
     </style>
 </head>
 <body>
+    <div class='infobox' ">
+       <p> <strong>Team Labormatch</strong>: Keegan Hines, Yanan Sun, Ali Azari</p>
+       <p><strong>About</strong>: Data from the Bureau of Labor Statistics survey of State and Metro Area Employment, Hours, and Earnings. The monthly averages of jobs per industry per state are shown below.  </p>
+    </div>
+    
     <script type="text/javascript">
     //Width and height
     var w = 800;
@@ -61,7 +78,7 @@
     
     //var color = d3.scale.quantize()
     //                    .range(['#9AC8E0','#5EA6CD','#3690C0','#266586','#163A4D']);
-  
+  var stateColor = '#3690C0'
     var color = ['#9AC8E0','#5EA6CD','#3690C0','#266586','#163A4D']
    
     var svg = d3.select("body")
@@ -93,17 +110,19 @@
     .enter()
     .append("path")
     .attr("d", path)
-    .style("fill","#3690C0")
+    .style("fill",stateColor)
     .style("stroke","white")
     .style('stroke-width','1px')
     .on("mouseover", function(d){
         d3.select(this)      
         .style('stroke-width','3px')
+        .style('fill','#FFE357')
         })
     .on("mouseout", function(d){
         d3.select(this)
         .style('stroke','white')
         .style('stroke-width','1px')
+        .style('fill',stateColor)
         })
     .on('click',function(d){
        
@@ -247,4 +266,6 @@
    
     
     </script>
+   
+
 </body>
