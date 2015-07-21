@@ -7,8 +7,9 @@ Summary of Problem: Using data from the Bureau of Labor Statistics, LaborMatch b
 
 #Software Architecture Diagram
 ![](http://i60.tinypic.com/14r4om.jpg)
-
+[software architecture link](http://i60.tinypic.com/14r4om.jpg)
 #Data Flow Diagram
 ![](http://i57.tinypic.com/akaemt.jpg)
+[data flow link](http://i57.tinypic.com/akaemt.jpg)
 
 [Extra code](https://github.com/ysun1/ysun1.github.io)
